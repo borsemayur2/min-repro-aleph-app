@@ -26,9 +26,6 @@ export default function BasicTable({ todos = [] }: IProps) {
           <TableRow>
             <TableCell>ID</TableCell>
             <TableCell align="center">Title</TableCell>
-            <TableCell align="center">Status</TableCell>
-            <TableCell align="center">Edit</TableCell>
-            <TableCell align="center">Delete</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
